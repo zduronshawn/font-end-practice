@@ -28,3 +28,11 @@ address{
     margin:0px;
     color: #f5f5f5;
 }
+
+body{
+    padding: 45px 0px 0px 0px;
+    z-index: 0;
+}
+.navbar-inverse{
+    background-color: #fa5e5e;
+}
