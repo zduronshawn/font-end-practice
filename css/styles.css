@@ -36,3 +36,8 @@ body{
 .navbar-inverse{
     background-color: #fa5e5e;
 }
+
+h3{
+    font-size: 200%;
+    font-weight: bold;
+}
