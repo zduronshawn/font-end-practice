@@ -1,0 +1,88 @@
+@lt-gray:#ddd;
+@dk-gray:#504f4f;
+@pink-dark:#fa5e5e;
+@pink-light:#fd7373;
+@pink-pale:#fd9898;
+
+// height
+@carousel-item-height:300px;
+@content-height:400px;
+
+.zero-margin(@pad-up-down:0px,@pad-left-right:0px){
+    margin:0 auto;
+    padding:@pad-up-down @pad-left-right;
+}
+
+body{
+    padding-right:0 !important;
+    padding: 45px 0px 0px 0px;
+    z-index: 0;}
+
+.row-header{
+    .zero-margin(0px,0px);
+}
+
+.row-content{
+    .zero-margin(50px,0px);
+    border-bottom: 1px ridge;
+    min-height: @content-height;
+}
+
+.footer{
+    background-color: @pink-pale;
+    .zero-margin(20px,0px);
+}
+
+.jumbotron{
+    .zero-margin(70px,30px);
+    background-color: @pink-light;
+    color: @lt-gray;
+}
+
+address{
+    font-size: 80%;
+    margin: 0px;
+    color: @dk-gray;
+}
+
+.navbar-inverse{
+    background-color: @pink-dark;
+}
+
+h3{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.tab-content {
+    border-left: 1px solid @lt-gray;
+    border-right: 1px solid @lt-gray;
+    border-bottom: 1px solid @lt-gray;
+    padding: 20px;
+}
+
+.modal-open{
+    overflow: initial !important;
+}
+
+.carousel{
+    background-color: @pink-light;
+    .carousel-item{
+        height:@carousel-item-height;
+        img{
+            position: absolute;
+            top:0px;
+            left:0px;
+            min-height: @carousel-item-height;
+        }
+    }
+}
+.custom-select{
+    width:100%;
+}
+
+#controlbutton{
+    position: absolute;
+    bottom:3px;
+    right:3px;
+}
